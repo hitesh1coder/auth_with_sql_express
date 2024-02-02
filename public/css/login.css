@@ -5,8 +5,8 @@
   font-family: "Poppins", sans-serif;
 }
 .login,
-.login > form,
-form > .input_box {
+.login > section,
+section > .input_box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,13 +17,13 @@ form > .input_box {
   flex-direction: column;
   background: linear-gradient(217.64deg, #9181f4 -5.84%, #5038ed 106.73%);
 }
-.login > form {
+.login > section {
   width: 40vw;
   height: 40vh;
   flex-direction: column;
   gap: 1rem;
 }
-form > .input_box {
+section > .input_box {
   width: 70%;
   padding: 0.7rem;
   background: #fff;
@@ -40,7 +40,7 @@ form > .input_box {
 p {
   color: #525252;
 }
-.submit_btn {
+#login_btn {
   padding: 0.7rem 1rem;
   border: none;
   outline: none;

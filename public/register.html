@@ -14,14 +14,20 @@
     <div class="register">
       <h1>Register</h1>
       <p>The only way to go great work is to love what you do.</p>
-      <form action="/register">
+      <section>
         <label class="input_box">
           <img src="./icons/user.png" alt="" />
-          <input type="text" placeholder="Name" id="name" name="name" />
+          <input
+            required="text"
+            placeholder="Name"
+            id="fullname"
+            name="fullname"
+          />
         </label>
         <label class="input_box">
           <img src="./icons/user.png" alt="" />
           <input
+            required
             type="text"
             placeholder="Username"
             id="username"
@@ -31,14 +37,19 @@
         <label class="input_box">
           <img src="./icons/password.png" alt="" />
           <input
+            required
             type="password"
             placeholder="Password"
             id="password"
             name="password"
           />
         </label>
-        <button type="submit" class="submit_btn">Register Now</button>
-      </form>
+        <button type="submit" id="register_btn" onclick="registerUser()">
+          Register Now
+        </button>
+      </section>
+      <span>Already have an Account <a href="/Login">Login here</a></span>
     </div>
+    <script src="./js/form.js"></script>
   </body>
 </html>

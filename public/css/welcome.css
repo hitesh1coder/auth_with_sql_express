@@ -13,3 +13,8 @@
   align-items: center;
   background: linear-gradient(-119.36deg, #6562fd 2.16%, #f9f8ff 43.73%);
 }
+.user_name {
+  font-weight: bolder;
+  color: rgb(47, 47, 235);
+  text-transform: capitalize;
+}
