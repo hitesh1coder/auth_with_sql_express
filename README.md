@@ -10,7 +10,7 @@ Node JS, Express , MySQL , HTML , CSS ,JavaScript
 
 # Install
 
-Clone this repo from here :-
+Clone this repo from here :-https://github.com/hitesh1coder/auth_with_sql_express
 
 then install dependencies using this command "npm install"
 
