@@ -47,6 +47,7 @@ function loginUser() {
 
 const validateUser = (data) => {
   if (data.message === "User registered successfully") {
+    alert(data.message);
     window.location.href = "/login";
   }
 };

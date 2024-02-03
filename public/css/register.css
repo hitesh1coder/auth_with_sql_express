@@ -51,3 +51,8 @@ p {
   background: linear-gradient(99.78deg, #9181f4 -50.85%, #5038ed 109.55%);
   box-shadow: 0px 8px 21px 0px #00000029;
 }
+@media screen and (max-width: 768px) {
+  .register > section {
+    width: 80vw;
+  }
+}

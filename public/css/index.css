@@ -39,3 +39,12 @@ section > a {
   background: #e90d0d;
   border-radius: 0.4rem;
 }
+@media screen and (max-width: 768px) {
+  .auth_container > section {
+    width: 80vw;
+  }
+  section > a {
+    width: 60vw;
+    text-align: center;
+  }
+}

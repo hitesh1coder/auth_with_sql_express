@@ -11,10 +11,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 1rem;
   background: linear-gradient(-119.36deg, #6562fd 2.16%, #f9f8ff 43.73%);
 }
 .user_name {
   font-weight: bolder;
   color: rgb(47, 47, 235);
   text-transform: capitalize;
+}
+.logout_btn {
+  padding: 0.7rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  background: linear-gradient(99.78deg, #f7a2a2 -50.85%, #d65518 109.55%);
+  box-shadow: 0px 8px 21px 0px #00000029;
+}
+.logout_btn:hover {
+  background: linear-gradient(99.78deg, #f7a2a2 -50.85%, #a73906 109.55%);
 }
